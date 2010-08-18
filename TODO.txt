@@ -1,0 +1,5 @@
+make some decisions about how the web interface looks
+
+syntax highlighting - highlight.js? http://softwaremaniacs.org/soft/highlight/en/
+user authentication
+session handling
