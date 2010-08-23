@@ -2,7 +2,8 @@
 Python Koans
 ============
 
-Python Koans on GAE lives here: http://python-koans.appspot.com/
+Python Koans on GAE lives here:
+    http://python-koans.appspot.com/
 
 ***********************************************************
 *** NOTE! **
