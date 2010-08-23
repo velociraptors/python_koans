@@ -8,5 +8,4 @@ handlers:
   static_dir: templates/stylesheets
 
 - url: /.*
-  static_files: templates/index.html
-  upload: templates/(.*)
+  script: main.py
