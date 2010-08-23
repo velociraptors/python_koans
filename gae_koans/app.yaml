@@ -6,6 +6,7 @@ api_version: 1
 handlers:
 - url: /stylesheets
   static_dir: templates/stylesheets
-  
+
 - url: /.*
-  script: main.py
+  static_files: templates/index.html
+  upload: templates/(.*)
