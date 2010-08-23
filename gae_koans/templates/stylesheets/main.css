@@ -1,0 +1,56 @@
+body, html { 
+    margin: 0px; 
+    padding: 0px;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+#maincontainer{
+width: 840px; /* Width of main container */
+margin: 0 auto; /* Center container on page */
+}
+
+#header{
+background: silver;
+height: 60px; /* Height of header */
+}
+
+#header h1{
+margin: 0;
+padding-top: 15px;
+}
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#maincolumn{
+margin-right: 200px; /* Set right margin to sidebarWidth */
+}
+
+#maincolumn code{
+margin-left: 4em; /* Indent the codes! */
+}
+
+#sidebar{
+float: left;
+width: 200px; /* Width of sidebar */
+margin-left: -200px; /* Set left margin to -(sidebarWidth) */
+background: black;
+color: white;
+}
+
+#footer{
+clear: left;
+width: 100%;
+background: black;
+color: white;
+text-align: center;
+padding: 4px 0;
+}
+
+.innertube{
+margin: 10px; /* Margins for inner DIV inside each column (to provide padding) */
+margin-top: 0;
+}
