@@ -1,4 +1,10 @@
 """Stuff to make the app go."""
+import os
+os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
+
+from google.appengine.dist import use_library
+use_library('django', '1.1')
+
 from google.appengine.ext import webapp
 from google.appengine.ext.webapp import util, template
 
