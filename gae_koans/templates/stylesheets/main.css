@@ -25,11 +25,11 @@ float: left;
 width: 100%;
 }
 
-#maincolumn{
+#content{
 margin-right: 200px; /* Set right margin to sidebarWidth */
 }
 
-#maincolumn code{
+#content code{
 margin-left: 4em; /* Indent the codes! */
 }
 
@@ -37,8 +37,6 @@ margin-left: 4em; /* Indent the codes! */
 float: left;
 width: 200px; /* Width of sidebar */
 margin-left: -200px; /* Set left margin to -(sidebarWidth) */
-background: black;
-color: white;
 }
 
 #footer{
